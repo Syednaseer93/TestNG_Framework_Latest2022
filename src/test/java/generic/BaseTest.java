@@ -118,6 +118,7 @@ public class BaseTest implements IAutoConst{
 		String testName=result.getName();
 		int testStatus= result.getStatus();
 		
+		
 		if(testStatus==1)
 		{
 			extentTest.log(Status.PASS, testName+" is pass");
